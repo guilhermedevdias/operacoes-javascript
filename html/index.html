@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Operações</title>
+        <meta charset="UTF-8">
+        <!--<meta http-equiv="refresh" content="2">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <h1>Resolva as Atividades</h1>
+        <h2>1) Resolva as operações:</h2>
+        <label>a)</label>
+        <div class="inputs">
+            <div id="a">10</div> + <div id="b">15</div> = <div id="resultado"></div> <button onclick="obtersoma()">calcular</button>
+        </div>
+        <br><br>
+        <label>b)</label>
+        <div class="inputs">
+            <div id="c">"10"</div> + <div id="d">2</div> = <div id="resultado1"></div> <button onclick="obtersomas()">calcular</button>
+        </div>
+        <br><br>
+        <label>c)</label>
+        <div class="inputs">
+            <div id="e">"10"</div> * <div id="f">2</div> = <div id="resultado2"></div> <button onclick="obtermult()">calcular</button>
+        </div>
+        <br><br>
+        <label>d)</label>
+        <div class="inputs">
+            <div id="g">"10"</div> / <div id="h">3</div> = <div id="resultado3"></div> <button onclick="obterdivi()">calcular</button>
+        </div>
+        <br><br>
+        <label>e)</label>
+        <div class="inputs">
+            <div id="i">"10"</div> % <div id="j">3</div> = <div id="resultado4"></div> <button onclick="obterporcent()">calcular</button>
+        </div>
+        <br><br>
+        <label>f)</label>
+        <div class="inputs">
+            <div id="k">10</div> + <div id="l">true</div> = <div id="resultado5"></div> <button onclick="obterboo()">calcular</button>
+        </div>
+        <br><br>
+        <label>g)</label>
+        <div class="inputs">
+            <div id="m">10</div> == <div id="n">"10"</div> = <div id="resultado6"></div> <button onclick="obterigual()">calcular</button>
+        </div>
+        <br><br>
+        <label>h)</label>
+        <div class="inputs">
+            <div id="o">10</div> === <div id="p">"10"</div> = <div id="resultado7"></div> <button onclick="obterdiferente()">calcular</button>
+        </div>
+        <br><br>
+        <label>i)</label>
+        <div class="inputs">
+            <div id="q">10</div> < <div id="r">11</div> = <div id="resultado8"></div> <button onclick="obtermenor()">calcular</button>
+        </div>
+        <br><br>
+        <label>j)</label>
+        <div class="inputs">
+            <div id="s">10</div> > <div id="t">12</div> = <div id="resultado9"></div> <button onclick="obtermaior()">calcular</button>
+        </div>
+        <br><br>
+        <label>k)</label>
+        <div class="inputs">
+            <div id="u">10</div> <= <div id="v">10.1</div> = <div id="resultado10"></div> <button onclick="obtermenorigual()">calcular</button>
+        </div>
+        <br><br>
+        <label>l)</label>
+        <div class="inputs">
+            <div id="y">10</div> > <div id="w">9.99</div> = <div id="resultado11"></div> <button onclick="obtermaiorr()">calcular</button>
+        </div>
+        <br><br>
+        <label>m)</label>
+        <div class="inputs">
+            <div id="aa">10</div> != <div id="bb">"dez"</div> = <div id="resultado12"></div> <button onclick="obterdiferesentenca()">calcular</button>
+        </div>
+        <br><br>
+        <label>n)</label>
+        <div class="inputs">
+            <div id="cc">10</div> + <div id="dd">true</div> = <div id="resultado13"></div> <button onclick="obtertr()">calcular</button>
+        </div>
+        <br><br>
+        <label>o)</label>
+        <div class="inputs">
+            <div id="ee">"dez"</div> + <div id="ff">true</div> = <div id="resultado14"></div> <button onclick="obterbool()">calcular</button>
+        </div>
+        <br><br>
+        <label>p)</label>
+        <div class="inputs">
+            <div id="gg">10</div> + <div id="hh">false</div> = <div id="resultado15"></div> <button onclick="obterfalse()">calcular</button>
+        </div>
+        <br><br>
+        <label>q)</label>
+        <div class="inputs">
+            <div id="ii">10</div> * <div id="jj">false</div> = <div id="resultado16"></div> <button onclick="obtermultiplicar()">calcular</button>
+        </div>
+        <br><br>
+        <label>r)</label>
+        <div class="inputs">
+            <div id="kk">true</div> + <div id="ll">true</div> = <div id="resultado17"></div> <button onclick="obtertrue()">calcular</button>
+        </div>
+        <br><br>
+        <label>s)</label>
+        <div class="inputs">
+            <div id="mm">10--</div> <div id="resultado18"></div> = <button onclick="obtersinais()">calcular</button>
+        </div>
+        <br><br>
+        <label>t)</label>
+        <div class="inputs">
+            <div id="nn">10++</div> <div id="resultado19"></div> = <button onclick="obteriguais()">calcular</button>
+        </div>
+        <br><br>
+        <label>u)</label>
+        <div class="inputs">
+            <div id="oo">1</div> & <div id="pp">1</div> = <div id="resultado20"></div> <button onclick="obtercomer()">calcular</button>
+        </div>
+        <br><br>
+        <label>v)</label>
+        <div class="inputs">
+            <div id="qq">1</div> & <div id="rr">0</div> = <div id="resultado21"></div> <button onclick="obtercomerc()">calcular</button>
+        </div>
+        <br><br>
+        <label>w)</label>
+        <div class="inputs">
+            <div id="ss">0</div> & <div id="tt">0</div> = <div id="resultado22"></div> <button onclick="obtercomercial()">calcular</button>
+        </div>
+        <br><br>
+        <label>x)</label>
+        <div class="inputs">
+            <div id="uu">1</div> & <div id="vv">0</div> = <div id="resultado23"></div> <button onclick="obtercomercialll()">calcular</button>
+        </div>
+        <br><br>
+        <label>y)</label>
+        <div class="inputs">
+            <div id="ww">0</div> / <div id="yy">1</div> = <div id="resultado24"></div> <button onclick="obterdivisoe()">calcular</button>
+        </div>
+        <br><br>
+        <label>z)</label>
+        <div class="inputs">
+            <div id="aaa">5</div> + <div id="bbb">5</div> == <div id="ccc">10</div> = <div id="resultado25"></div> <button onclick="obterex()">calcular</button>
+        </div>
+        <br><br>
+        <label>aa)</label>
+        <div class="inputs">
+            <div id="ddd">"5"</div> + <div id="eee">"5"</div> == <div id="fff">10</div> = <div id="resultado26"></div> <button onclick="obterexp()">calcular</button>
+        </div>
+        <br><br>
+        <label>bb)</label>
+        <div class="inputs">
+            <div id="ggg">"5"</div> * <div id="hhh">2</div> > <div id="iii">9</div> = <div id="resultado27"></div> <button onclick="obterexpr()">calcular</button>
+        </div>
+        <br><br>
+        <label>cc)</label>
+        <div class="inputs">
+            <div id="jjj">(10</div> + <div id="kkk">10)</div> * <div id="lll">2</div> = <div id="resultado28"></div> <button onclick="obterexpre()">calcular</button>
+        </div>
+        <br><br>
+        <label>dd)</label>
+        <div class="inputs">
+            <div id="mmm">10</div> + <div id="nnn">10</div> * <div id="ooo">2</div> = <div id="resultado29"></div> <button onclick="obterexpressao()">calcular</button>
+        </div>
+        
+        <h2>2) Responda as perguntas</h2>
+        <label>a)</label>
+        <div class="inputs">
+            <div id="branco0">branco</div> == <div id="branco1">branco</div> = <div id="resultado01"></div> <button onclick="obterbranco()">calcular</button>
+        </div>
+        <br><br>
+        <label>b)</label>
+        <div class="inputs">
+            <div id="branco2">branco</div> == <div id="cinza1">cinza</div> = <div id="resultado02"></div> <button onclick="obtercinza1()">calcular</button>
+        </div>
+        <br><br>
+        <label>c)</label>
+        <div class="inputs">
+            <div id="carro1">carro</div> === <div id="branco2">branco</div> = <div id="resultado03"></div> <button onclick="obterbranco3()">calcular</button>
+        </div>
+        <br><br>
+        <label>d)</label>
+        <div class="inputs">
+            <div id="carro2">carro</div> == <div id="">branco</div> = <div id="resultado03"></div> <button onclick="obterbranco3()">calcular</button>
+        </div>
+        <br><br>
+        <label>e)</label>
+        <div class="inputs">
+            <div id="valor">carro</div> - <div id="entrada">entrada</div> = <div id="resultados">Resultado</div> / <div id="prestacao">prestacao</div> = <div id="resultado04"></div> <button onclick="obtervalores()">calcular</button>
+        </div>
+        <br><br>
+        <label>e)</label>
+        <div class="inputs">
+            <div id="branco">branco</div>,<div id="preto">preto</div>,<div id="cinza">cinza</div> = <div id="resultado05"></div> <button onclick="caracteres()">calcular</button>
+        </div>     
+        <script src="../js/script.js"></script>
+    </body>
+</html>

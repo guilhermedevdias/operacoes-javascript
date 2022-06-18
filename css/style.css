@@ -1,0 +1,14 @@
+div {
+    display: inline;
+}
+
+.inputs {
+    padding: 10px;
+}
+
+#resultado, #resultado1, #resultado2, #resultado3, #resultado4, #resultado5, #resultado6, #resultado7, #resultado8,
+#resultado9, #resultado10, #resultado11, #resultado12, #resultado13, #resultado14, #resultado15, #resultado16, #resultado17
+#resultado18, #resultado19, #resultado20, #resultado21, #resultado22, #resultado23, #resultado24, #resultado25, #resultado26,
+#resultado27, #resultado28, #resultado29, #resultado01, #resultado02, #resultado03, #resultado04, #resultado05  {
+    color: red;
+}
